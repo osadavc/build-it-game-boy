@@ -1,0 +1,92 @@
+{
+  "pickup": {
+    "file": "/sfx/pickup.wav",
+    "gain": 0.5,
+    "source": "fit/pop/mouth_plop, pitch A4, dur 0.14 (own seed)",
+    "duration": 0.135
+  },
+  "drop": {
+    "file": "/sfx/drop.wav",
+    "gain": 0.55,
+    "source": "knock/wood, pitch E4 (own seed)",
+    "duration": 0.136
+  },
+  "snap": {
+    "file": "/sfx/snap.wav",
+    "gain": 0.6,
+    "source": "knock/snap (own seed)",
+    "duration": 0.12
+  },
+  "seat-board": {
+    "file": "/sfx/seat-board.wav",
+    "gain": 0.6,
+    "source": "knock/wood, pitch 256 Hz, low-pass 3.5 kHz (own seed)",
+    "duration": 0.135
+  },
+  "screw": {
+    "file": "/sfx/screw.wav",
+    "gain": 0.55,
+    "source": "composite: 12 x pro_typing_key/tick (seeds 11-22, 45 ms each, gaps 50 ms x 1.045^k, -7.5..-4.7 dB) + toggle/micro tighten click at 0.78 s, -62 dB room tone",
+    "duration": 0.858
+  },
+  "tool": {
+    "file": "/sfx/tool.wav",
+    "gain": 0.5,
+    "source": "pro_click/glass (own seed)",
+    "duration": 0.05
+  },
+  "wrong": {
+    "file": "/sfx/wrong.wav",
+    "gain": 0.5,
+    "source": "composite: knock/wood pitch 294 Hz twice (2nd: seed 7, -2.5 dB, +95 ms), low-pass 2.5 kHz",
+    "duration": 0.23
+  },
+  "step": {
+    "file": "/sfx/step.wav",
+    "gain": 0.6,
+    "source": "pluck/kalimba_soft, dur 0.6 (native C5, own seed)",
+    "duration": 0.597
+  },
+  "close": {
+    "file": "/sfx/close.wav",
+    "gain": 0.65,
+    "source": "toggle/rocker, pitch F6 (own seed)",
+    "duration": 0.22
+  },
+  "flip": {
+    "file": "/sfx/flip.wav",
+    "gain": 0.45,
+    "source": "fit/whoosh.short/bamboo_swish, dur 0.5 (trimmed to its audible ~0.35 s), low-pass 2 kHz + high-pass 120 Hz",
+    "duration": 0.349
+  },
+  "ribbon": {
+    "file": "/sfx/ribbon.wav",
+    "gain": 0.6,
+    "source": "fit/click/floss_lid (own seed)",
+    "duration": 0.08
+  },
+  "battery": {
+    "file": "/sfx/battery.wav",
+    "gain": 0.6,
+    "source": "click/tink (own seed)",
+    "duration": 0.068
+  },
+  "switch": {
+    "file": "/sfx/switch.wav",
+    "gain": 0.6,
+    "source": "toggle/micro (own seed)",
+    "duration": 0.08
+  },
+  "explode": {
+    "file": "/sfx/explode.wav",
+    "gain": 0.45,
+    "source": "fit/whoosh.short/bamboo_swish, dur 0.7 (trimmed to its audible length), low-pass 2 kHz + high-pass 120 Hz",
+    "duration": 0.539
+  },
+  "hint": {
+    "file": "/sfx/hint.wav",
+    "gain": 0.5,
+    "source": "fit/pop/mouth_plop, pitch F5 (own seed)",
+    "duration": 0.215
+  }
+}
